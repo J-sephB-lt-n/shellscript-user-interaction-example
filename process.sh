@@ -15,8 +15,8 @@ then
 else
     echo "You are now editing book ${book_choice}"
 fi
-echo "Which chapter(s) would you like to edit?"
-echo "(please provide single integer or space-separated list of integers such as '1 3')"
+echo "Which chapter(s) would you like to add to?"
+echo "(please provide a single integer or a space-separated list of integers such as '1 3')"
 read chapter_choice
 echo "Please provide a line of text to add to chapter(s) [${chapter_choice}] in book(s) [${book_choice}]:"
 read line_add
